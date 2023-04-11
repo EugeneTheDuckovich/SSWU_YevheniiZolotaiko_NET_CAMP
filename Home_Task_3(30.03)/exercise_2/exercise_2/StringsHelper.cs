@@ -22,13 +22,13 @@ public static class StringsHelper
     }
 
     public static string ReplaceDoubleLetters(this string str, string replacer)
-    {
+    {// А якщо кілька пропусків міжсловами?
         var splittedString = str.Split(' ');
 
         for (int i = 0; i < splittedString.Length; i++)
         {
             for (int j = 0; j < splittedString[i].Length - 1; j++)
-            {
+            {//Ця умова не обов'язкова
                 if (!char.IsLetter(splittedString[i][j])) continue;
 
                 if (splittedString[i][j] == splittedString[i][j+1])
