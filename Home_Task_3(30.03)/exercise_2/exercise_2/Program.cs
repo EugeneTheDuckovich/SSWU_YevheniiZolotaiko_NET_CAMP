@@ -1,5 +1,5 @@
 ﻿using exercise_2;
-
+// Домовлялись що буде ще малюнок діаграми! Я його не знайшла.
 while (true)
 {
     Console.WriteLine("Enter string to work with or input nothing to finish the program");
