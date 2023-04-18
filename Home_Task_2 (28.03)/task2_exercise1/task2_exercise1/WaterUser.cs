@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace task2_exercise1;
-
+// Клас помпа Ви відкинули. Тоді дані про швидкість накачування, стан щодо накачування буде плутатись в параметрах вежі. І не дасть експериментувати з різним способом накачування. 
 public class WaterUser
 {
     public string Name { get; }
